@@ -1,13 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { AppProvider, useApp } from '@/context/AppContext';
+import HomeScreen from '@/components/screens/HomeScreen';
+import UploadScreen from '@/components/screens/UploadScreen';
+import QuestionnaireScreen from '@/components/screens/QuestionnaireScreen';
+import AnalyzingScreen from '@/components/screens/AnalyzingScreen';
+import DiagnosisScreen from '@/components/screens/DiagnosisScreen';
+import RecommendationsScreen from '@/components/screens/RecommendationsScreen';
+import ProgressScreen from '@/components/screens/ProgressScreen';
+
+const AppContent = () => {
+  const { currentScreen } = useApp();
+
+  const screens = {
+    home: <HomeScreen />,
+    upload: <UploadScreen />,
+    questionnaire: <QuestionnaireScreen />,
+    analyzing: <AnalyzingScreen />,
+    diagnosis: <DiagnosisScreen />,
+    recommendations: <RecommendationsScreen />,
+    progress: <ProgressScreen />,
+  };
+
+  return (
+    <div className="min-h-screen">
+      {screens[currentScreen]}
+    </div>
+  );
+};
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <AppProvider>
+      <AppContent />
+    </AppProvider>
   );
 };
 
