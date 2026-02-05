@@ -7,7 +7,7 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "1.5rem",
+       padding: "2rem",
       screens: {
         "2xl": "1400px",
       },
@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+           light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -67,7 +68,8 @@ export default {
         "3xl": "calc(var(--radius) + 16px)",
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+         sans: ['Inter', 'SF Pro Display', 'system-ui', '-apple-system', 'sans-serif'],
+         display: ['Inter', 'SF Pro Display', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
@@ -98,9 +100,13 @@ export default {
           "0%": { transform: "translateX(-100%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
         },
-        "progress": {
-          "0%": { width: "0%" },
-          "100%": { width: "100%" },
+         "fade-in-up": {
+           "0%": { opacity: "0", transform: "translateY(30px)" },
+           "100%": { opacity: "1", transform: "translateY(0)" },
+         },
+         "blur-in": {
+           "0%": { opacity: "0", filter: "blur(10px)" },
+           "100%": { opacity: "1", filter: "blur(0)" },
         },
       },
       animation: {
@@ -111,7 +117,8 @@ export default {
         "scale-in": "scale-in 0.3s ease-out",
         "slide-in-right": "slide-in-right 0.4s ease-out",
         "slide-in-left": "slide-in-left 0.4s ease-out",
-        "progress": "progress 2s ease-in-out",
+         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
+         "blur-in": "blur-in 0.5s ease-out forwards",
       },
     },
   },
