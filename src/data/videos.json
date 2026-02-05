@@ -1,0 +1,78 @@
+ {
+   "categories": [
+     "All",
+     "UGC & Narrative",
+     "Fashion & Lifestyle",
+     "Hospitality & Experience",
+     "Product Explainers",
+     "Voiceover Content"
+   ],
+   "videos": [
+     {
+       "id": "1",
+       "title": "Brand Story Campaign",
+       "brand": "Flourish Beauty",
+       "category": "UGC & Narrative",
+       "thumbnail": "/images/video-thumb-1.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "UGC",
+       "description": "Authentic storytelling that drove 45% increase in brand engagement.",
+       "skillDemonstrated": "Narrative Storytelling"
+     },
+     {
+       "id": "2",
+       "title": "Summer Collection Launch",
+       "brand": "Oasis Fashion",
+       "category": "Fashion & Lifestyle",
+       "thumbnail": "/images/video-thumb-2.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "Campaign Video",
+       "description": "High-energy fashion campaign showcasing seasonal trends.",
+       "skillDemonstrated": "On-Camera Presence"
+     },
+     {
+       "id": "3",
+       "title": "Luxury Resort Experience",
+       "brand": "Adolak Hotels",
+       "category": "Hospitality & Experience",
+       "thumbnail": "/images/video-thumb-3.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "Experience Video",
+       "description": "Immersive walkthrough of luxury hospitality experience.",
+       "skillDemonstrated": "Experiential Storytelling"
+     },
+     {
+       "id": "4",
+       "title": "Tech Product Demo",
+       "brand": "Sellcardfast",
+       "category": "Product Explainers",
+       "thumbnail": "/images/video-thumb-4.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "Explainer",
+       "description": "Simplified complex fintech product for mainstream audience.",
+       "skillDemonstrated": "Technical Simplification"
+     },
+     {
+       "id": "5",
+       "title": "Brand Narration",
+       "brand": "Stalwart",
+       "category": "Voiceover Content",
+       "thumbnail": "/images/video-thumb-5.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "Voiceover",
+       "description": "Professional voice narration for brand documentary.",
+       "skillDemonstrated": "Voice Acting"
+     },
+     {
+       "id": "6",
+       "title": "Streetwear Lookbook",
+       "brand": "Bablimo Clothing",
+       "category": "Fashion & Lifestyle",
+       "thumbnail": "/images/video-thumb-6.jpg",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+       "contentType": "Lookbook Video",
+       "description": "Dynamic showcase of urban fashion collection.",
+       "skillDemonstrated": "Visual Storytelling"
+     }
+   ]
+ }

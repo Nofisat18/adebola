@@ -1,0 +1,58 @@
+ {
+   "campaigns": [
+     {
+       "id": "1",
+       "name": "Flourish",
+       "image": "/images/campaign-flourish.jpg",
+       "campaignType": "Brand Launch",
+       "contentProduced": "UGC Videos, Social Posts, Stories",
+       "focusSkill": "Authentic Storytelling",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+     },
+     {
+       "id": "2",
+       "name": "Stalwart",
+       "image": "/images/campaign-stalwart.jpg",
+       "campaignType": "Product Campaign",
+       "contentProduced": "Voiceover, Brand Films",
+       "focusSkill": "Voice Acting & Narration",
+       "videoUrl": null
+     },
+     {
+       "id": "3",
+       "name": "Sellcardfast",
+       "image": "/images/campaign-sellcardfast.jpg",
+       "campaignType": "Fintech Awareness",
+       "contentProduced": "Explainer Videos, Tutorials",
+       "focusSkill": "Technical Simplification",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+     },
+     {
+       "id": "4",
+       "name": "Adolak Hotels",
+       "image": "/images/campaign-adolak.jpg",
+       "campaignType": "Hospitality Experience",
+       "contentProduced": "Experience Videos, Reels",
+       "focusSkill": "Immersive Storytelling",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+     },
+     {
+       "id": "5",
+       "name": "Oasis Fashion Brand",
+       "image": "/images/campaign-oasis.jpg",
+       "campaignType": "Seasonal Campaign",
+       "contentProduced": "Lookbooks, Campaign Films",
+       "focusSkill": "On-Camera Presence",
+       "videoUrl": null
+     },
+     {
+       "id": "6",
+       "name": "Bablimo Clothing",
+       "image": "/images/campaign-bablimo.jpg",
+       "campaignType": "Streetwear Launch",
+       "contentProduced": "UGC, Social Content",
+       "focusSkill": "Youth Culture Connection",
+       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+     }
+   ]
+ }

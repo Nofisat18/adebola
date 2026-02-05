@@ -1,0 +1,46 @@
+ {
+   "metrics": [
+     {
+       "id": "1",
+       "title": "Total Video Views",
+       "value": "2.5M+",
+       "description": "Cumulative views across all brand content campaigns",
+       "screenshot": "/images/metric-views.jpg"
+     },
+     {
+       "id": "2",
+       "title": "Engagement Rate",
+       "value": "8.7%",
+       "description": "Average engagement rate, 3x industry standard",
+       "screenshot": "/images/metric-engagement.jpg"
+     },
+     {
+       "id": "3",
+       "title": "Brands Collaborated",
+       "value": "25+",
+       "description": "Diverse portfolio across fashion, tech, and hospitality",
+       "screenshot": "/images/metric-brands.jpg"
+     },
+     {
+       "id": "4",
+       "title": "Content Pieces",
+       "value": "150+",
+       "description": "High-quality videos, campaigns, and UGC content",
+       "screenshot": "/images/metric-content.jpg"
+     },
+     {
+       "id": "5",
+       "title": "Audience Reach",
+       "value": "500K+",
+       "description": "Monthly reach across social platforms",
+       "screenshot": "/images/metric-reach.jpg"
+     },
+     {
+       "id": "6",
+       "title": "Campaign ROI",
+       "value": "340%",
+       "description": "Average return on investment for brand partners",
+       "screenshot": "/images/metric-roi.jpg"
+     }
+   ]
+ }
