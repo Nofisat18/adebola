@@ -30,9 +30,9 @@
                <Link to="/videos" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                  Video Portfolio
                </Link>
-               <Link to="/campaigns" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                 Campaigns
-               </Link>
+                <Link to="/spokesperson" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  Spokesperson
+                </Link>
                <Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                  Contact
                </Link>

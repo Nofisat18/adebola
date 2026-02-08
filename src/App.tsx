@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
  import Layout from "./components/portfolio/Layout";
  import HomePage from "./pages/portfolio/HomePage";
  import VideosPage from "./pages/portfolio/VideosPage";
- import CampaignsPage from "./pages/portfolio/CampaignsPage";
+ 
  import SpokespersonPage from "./pages/portfolio/SpokespersonPage";
  import ProcessPage from "./pages/portfolio/ProcessPage";
  import MetricsPage from "./pages/portfolio/MetricsPage";
@@ -25,7 +25,7 @@ const App = () => (
            <Route path="/" element={<Layout />}>
              <Route index element={<HomePage />} />
              <Route path="videos" element={<VideosPage />} />
-             <Route path="campaigns" element={<CampaignsPage />} />
+             
              <Route path="spokesperson" element={<SpokespersonPage />} />
              <Route path="process" element={<ProcessPage />} />
              <Route path="metrics" element={<MetricsPage />} />
