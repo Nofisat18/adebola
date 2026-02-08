@@ -14,6 +14,24 @@ const testimonials: Testimonial[] = [
     image: "/images/testimonial-tosin.jpg",
     quote: "I have had the pleasure of working closely with Adebola and can confidently say he has an excellent work ethic and a genuine get-the-job-done attitude. He is highly dependable, takes responsibility seriously, and consistently delivers tasks with focus and dedication. Spence also has a strong desire to learn and improve, always looking for better ways to achieve results. His hard work and commitment have contributed significantly to Smart Glass Africa's growth.",
   },
+  {
+    name: "OAP Ezekiel Onome",
+    title: "CEO, Show Glass LLC",
+    image: "/images/testimonial-ezekiel.jpg",
+    quote: "Spence brings clarity to how brands communicate and shows up on camera in a way that feels natural and relatable. He's a superstar really.",
+  },
+  {
+    name: "Toyosi Ajayi",
+    title: "Founder, Stage Africa Media",
+    image: "/images/testimonial-toyosi.jpg",
+    quote: "Adebola thinks deeply about storytelling and knows how to shape messages so they land with the audience. He just knows how to connect with the people who should be watching.",
+  },
+  {
+    name: "Mc Rhelax",
+    title: "Corporate Host, Global Speaker, Hiptv Anchor",
+    image: "/images/testimonial-rhelax.jpg",
+    quote: "Adebola understands presence, timing, and how to hold attention on camera, which makes him valuable in media work. He's big on networking too. A real superstar.",
+  },
 ];
 
 const TestimonialSection = () => {
@@ -29,7 +47,7 @@ const TestimonialSection = () => {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}
