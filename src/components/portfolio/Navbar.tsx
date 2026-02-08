@@ -7,7 +7,7 @@
  const navLinks = [
    { href: '/', label: 'Home' },
    { href: '/videos', label: 'Video Portfolio' },
-   { href: '/campaigns', label: 'Campaigns' },
+   
    { href: '/spokesperson', label: 'Spokesperson' },
    { href: '/process', label: 'Creative Process' },
    { href: '/metrics', label: 'Metrics' },
