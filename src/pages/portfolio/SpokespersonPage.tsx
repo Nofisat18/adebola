@@ -1,7 +1,8 @@
- import { Check } from 'lucide-react';
- import SectionHeader from '@/components/portfolio/SectionHeader';
- import CTASection from '@/components/portfolio/CTASection';
- import profileData from '@/data/profile.json';
+import { Check } from 'lucide-react';
+import SectionHeader from '@/components/portfolio/SectionHeader';
+import CTASection from '@/components/portfolio/CTASection';
+import TestimonialSection from '@/components/portfolio/TestimonialSection';
+import profileData from '@/data/profile.json';
  
  const strengths = [
    "On-camera delivery",
@@ -80,8 +81,11 @@
            </div>
          </div>
        </section>
- 
-       {/* CTA */}
+
+        {/* Testimonials */}
+        <TestimonialSection />
+
+        {/* CTA */}
        <CTASection
          title="Need a Brand Spokesperson?"
          description="I bring your brand's voice to life with authentic, engaging on-camera presence."
