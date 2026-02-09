@@ -1,5 +1,5 @@
  import { useState } from 'react';
- import { Send, Instagram, Mail, CheckCircle } from 'lucide-react';
+ import { Send, Instagram, Mail, CheckCircle, Linkedin } from 'lucide-react';
  import { Button } from '@/components/ui/button';
  import { Input } from '@/components/ui/input';
  import { Textarea } from '@/components/ui/textarea';
@@ -193,37 +193,46 @@
              </div>
  
              {/* Social Links */}
-             <div className="space-y-6">
-               <div className="card-premium p-6">
-                 <h3 className="font-semibold text-foreground mb-4">Connect With Me</h3>
-                 <div className="space-y-3">
-                   <a
-                     href={profileData.socials.instagram}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
-                   >
-                     <Instagram className="h-5 w-5 text-primary" />
-                     <span className="text-sm font-medium">Instagram</span>
-                   </a>
-                   <a
-                     href={profileData.socials.tiktok}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
-                   >
-                     <TikTokIcon />
-                     <span className="text-sm font-medium">TikTok</span>
-                   </a>
-                   <a
-                     href={`mailto:${profileData.email}`}
-                     className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
-                   >
-                     <Mail className="h-5 w-5 text-primary" />
-                     <span className="text-sm font-medium">{profileData.email}</span>
-                   </a>
-                 </div>
-               </div>
+              <div className="space-y-6">
+                <div className="card-premium p-6">
+                  <h3 className="font-semibold text-foreground mb-4">Connect With Me</h3>
+                  <div className="space-y-3">
+                    <a
+                      href={profileData.socials.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      <Instagram className="h-5 w-5 text-primary" />
+                      <span className="text-sm font-medium">Instagram</span>
+                    </a>
+                    <a
+                      href={profileData.socials.tiktok}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      <TikTokIcon />
+                      <span className="text-sm font-medium">TikTok</span>
+                    </a>
+                    <a
+                      href={profileData.socials.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5 text-primary" />
+                      <span className="text-sm font-medium">LinkedIn</span>
+                    </a>
+                    <a
+                      href={`mailto:${profileData.email}`}
+                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      <Mail className="h-5 w-5 text-primary" />
+                      <span className="text-sm font-medium">{profileData.email}</span>
+                    </a>
+                  </div>
+                </div>
  
                <div className="card-premium p-6">
                  <h3 className="font-semibold text-foreground mb-2">Response Time</h3>

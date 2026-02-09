@@ -15,7 +15,7 @@
          </p>
          {author && (
            <footer className="mt-6 text-center">
-             <cite className="text-muted-foreground not-italic">— {author}</cite>
+             <cite className="text-muted-foreground not-italic">{author}</cite>
            </footer>
          )}
        </blockquote>
