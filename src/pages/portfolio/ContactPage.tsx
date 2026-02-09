@@ -226,10 +226,10 @@
                     </a>
                     <a
                       href={`mailto:${profileData.email}`}
-                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors"
+                      className="flex items-center gap-3 p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors group"
                     >
                       <Mail className="h-5 w-5 text-primary" />
-                      <span className="text-sm font-medium">{profileData.email}</span>
+                      <span className="text-sm font-medium text-primary underline underline-offset-2 group-hover:text-primary/80">{profileData.email}</span>
                     </a>
                   </div>
                 </div>
