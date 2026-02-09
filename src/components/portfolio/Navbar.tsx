@@ -4,15 +4,14 @@
  import { Button } from '@/components/ui/button';
  import { cn } from '@/lib/utils';
  
- const navLinks = [
-   { href: '/', label: 'Home' },
-   { href: '/videos', label: 'Video Portfolio' },
-   
-   { href: '/spokesperson', label: 'Spokesperson' },
-   { href: '/process', label: 'Creative Process' },
-   { href: '/metrics', label: 'Metrics' },
-   { href: '/contact', label: 'Contact' },
- ];
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/videos', label: 'Content Showcase' },
+  { href: '/spokesperson', label: 'Spokesperson' },
+  { href: '/process', label: 'Creative Process' },
+  { href: '/metrics', label: 'Metrics' },
+  { href: '/contact', label: 'Contact' },
+];
  
  const Navbar = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +22,9 @@
        <div className="container-wide">
          <div className="flex items-center justify-between h-16 md:h-20">
            {/* Logo */}
-           <Link to="/" className="text-xl font-bold text-primary">
-             Portfolio
-           </Link>
+            <Link to="/" className="text-lg md:text-xl font-bold text-primary tracking-tight">
+              AWOTAYO ADEBOLA DAMILOLA
+            </Link>
  
            {/* Desktop Navigation */}
            <div className="hidden lg:flex items-center gap-1">

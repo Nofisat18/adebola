@@ -21,20 +21,14 @@
                <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg leading-relaxed">
                  {profileData.subtitle}
                </p>
-               <div className="flex flex-wrap gap-4">
-                 <Button asChild variant="hero" size="lg">
-                   <Link to="/videos">
-                     <Play className="h-5 w-5 mr-1" fill="currentColor" />
-                     View Video Portfolio
-                   </Link>
-                 </Button>
-                 <Button asChild variant="outline" size="lg">
-                   <Link to="/campaigns">
-                     View Campaign Work
-                     <ArrowRight className="h-5 w-5 ml-1" />
-                   </Link>
-                 </Button>
-               </div>
+                <div className="flex flex-wrap gap-4">
+                  <Button asChild variant="hero" size="lg">
+                    <Link to="/videos">
+                      <Play className="h-5 w-5 mr-1" fill="currentColor" />
+                      View Content Showcase
+                    </Link>
+                  </Button>
+                </div>
              </div>
  
              {/* Right: Image */}
@@ -57,10 +51,10 @@
          <div className="container-wide">
            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
              <div>
-               <SectionHeader 
-                 title="Who Am I" 
-                 subtitle="A creative strategist who turns brand messages into audience connections."
-               />
+                <SectionHeader 
+                  title="Who Am I?" 
+                  subtitle="A creative strategist who turns brand messages into audience connections."
+                />
                <p className="text-muted-foreground leading-relaxed mb-6">
                  {profileData.bio}
                </p>
