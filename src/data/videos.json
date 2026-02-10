@@ -1,78 +1,178 @@
- {
-   "categories": [
-     "All",
-     "UGC & Narrative",
-     "Fashion & Lifestyle",
-     "Hospitality & Experience",
-     "Product Explainers",
-     "Voiceover Content"
-   ],
-   "videos": [
-     {
-       "id": "1",
-       "title": "Brand Story Campaign",
-       "brand": "Flourish Beauty",
-       "category": "UGC & Narrative",
-       "thumbnail": "/images/video-thumb-1.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "UGC",
-       "description": "Authentic storytelling that drove 45% increase in brand engagement.",
-       "skillDemonstrated": "Narrative Storytelling"
-     },
-     {
-       "id": "2",
-       "title": "Summer Collection Launch",
-       "brand": "Oasis Fashion",
-       "category": "Fashion & Lifestyle",
-       "thumbnail": "/images/video-thumb-2.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "Campaign Video",
-       "description": "High-energy fashion campaign showcasing seasonal trends.",
-       "skillDemonstrated": "On-Camera Presence"
-     },
-     {
-       "id": "3",
-       "title": "Luxury Resort Experience",
-       "brand": "Adolak Hotels",
-       "category": "Hospitality & Experience",
-       "thumbnail": "/images/video-thumb-3.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "Experience Video",
-       "description": "Immersive walkthrough of luxury hospitality experience.",
-       "skillDemonstrated": "Experiential Storytelling"
-     },
-     {
-       "id": "4",
-       "title": "Tech Product Demo",
-       "brand": "Sellcardfast",
-       "category": "Product Explainers",
-       "thumbnail": "/images/video-thumb-4.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "Explainer",
-       "description": "Simplified complex fintech product for mainstream audience.",
-       "skillDemonstrated": "Technical Simplification"
-     },
-     {
-       "id": "5",
-       "title": "Brand Narration",
-       "brand": "Stalwart",
-       "category": "Voiceover Content",
-       "thumbnail": "/images/video-thumb-5.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "Voiceover",
-       "description": "Professional voice narration for brand documentary.",
-       "skillDemonstrated": "Voice Acting"
-     },
-     {
-       "id": "6",
-       "title": "Streetwear Lookbook",
-       "brand": "Bablimo Clothing",
-       "category": "Fashion & Lifestyle",
-       "thumbnail": "/images/video-thumb-6.jpg",
-       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-       "contentType": "Lookbook Video",
-       "description": "Dynamic showcase of urban fashion collection.",
-       "skillDemonstrated": "Visual Storytelling"
-     }
-   ]
- }
+{
+  "categories": [
+    "All",
+    "SmartGlass",
+    "Show Glass",
+    "Fashion",
+    "Pure Worker",
+    "Ads",
+    "Alphatech"
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "SmartGlass Campaign 1",
+      "brand": "SmartGlass",
+      "category": "SmartGlass",
+      "thumbnail": "/images/video-thumb-1.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1yY9KaUP6doKvp7QlFOLl5iGq5dPbBkho/preview",
+      "contentType": "Campaign",
+      "description": "Brand campaign content for SmartGlass.",
+      "skillDemonstrated": "Brand Storytelling"
+    },
+    {
+      "id": "2",
+      "title": "SmartGlass Campaign 2",
+      "brand": "SmartGlass",
+      "category": "SmartGlass",
+      "thumbnail": "/images/video-thumb-2.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1IBZNXmg8_zOJ3fXQUs3_SLslIilEx8T8/preview",
+      "contentType": "Campaign",
+      "description": "Engaging visual narrative for SmartGlass.",
+      "skillDemonstrated": "Visual Storytelling"
+    },
+    {
+      "id": "3",
+      "title": "SmartGlass Campaign 3",
+      "brand": "SmartGlass",
+      "category": "SmartGlass",
+      "thumbnail": "/images/video-thumb-3.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1yfsDP0ikgY86CBFJCN2HAExk7QGsSP_X/preview",
+      "contentType": "Campaign",
+      "description": "Creative content production for SmartGlass brand.",
+      "skillDemonstrated": "Content Creation"
+    },
+    {
+      "id": "4",
+      "title": "SmartGlass Campaign 4",
+      "brand": "SmartGlass",
+      "category": "SmartGlass",
+      "thumbnail": "/images/video-thumb-4.jpg",
+      "videoUrl": "https://drive.google.com/file/d/11XD3LISL7Vl8xLrcrJDXFJQLlUTzaK6k/preview",
+      "contentType": "Campaign",
+      "description": "Dynamic brand content for SmartGlass.",
+      "skillDemonstrated": "On-Camera Presence"
+    },
+    {
+      "id": "5",
+      "title": "Fashion Lookbook 1",
+      "brand": "Fashion",
+      "category": "Fashion",
+      "thumbnail": "/images/video-thumb-5.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1Z7eifHSC2Np7io_oYtW-fnpQ7YFFYKeq/preview",
+      "contentType": "Lookbook",
+      "description": "High-energy fashion campaign showcasing style and trends.",
+      "skillDemonstrated": "Fashion Storytelling"
+    },
+    {
+      "id": "6",
+      "title": "Fashion Lookbook 2",
+      "brand": "Fashion",
+      "category": "Fashion",
+      "thumbnail": "/images/video-thumb-6.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1sg46LWcUD-D3xaxEuE6PAnB_VBrk-aeb/preview",
+      "contentType": "Lookbook",
+      "description": "Dynamic showcase of urban fashion collection.",
+      "skillDemonstrated": "Visual Styling"
+    },
+    {
+      "id": "7",
+      "title": "Fashion Lookbook 3",
+      "brand": "Fashion",
+      "category": "Fashion",
+      "thumbnail": "/images/video-thumb-1.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1mKoLR33fJBhiljwUZy31qScACnka4R7L/preview",
+      "contentType": "Lookbook",
+      "description": "Stylish fashion content with creative direction.",
+      "skillDemonstrated": "Creative Direction"
+    },
+    {
+      "id": "8",
+      "title": "Brand Ad Campaign",
+      "brand": "Ads",
+      "category": "Ads",
+      "thumbnail": "/images/video-thumb-2.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1yfsDP0ikgY86CBFJCN2HAExk7QGsSP_X/preview",
+      "contentType": "Ad",
+      "description": "Compelling advertisement content that drives engagement.",
+      "skillDemonstrated": "Ad Production"
+    },
+    {
+      "id": "9",
+      "title": "PureWorker Campaign 1",
+      "brand": "PureWorker",
+      "category": "Pure Worker",
+      "thumbnail": "/images/video-thumb-3.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1Cs0_f1fl1HSC587RjOoNy0b3oZbyvRq-/preview",
+      "contentType": "Campaign",
+      "description": "Brand storytelling for PureWorker.",
+      "skillDemonstrated": "Narrative Storytelling"
+    },
+    {
+      "id": "10",
+      "title": "PureWorker Campaign 2",
+      "brand": "PureWorker",
+      "category": "Pure Worker",
+      "thumbnail": "/images/video-thumb-4.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1teGGIQ4in3iWuDaA_SKckdKG8g8WrZ-C/preview",
+      "contentType": "Campaign",
+      "description": "Engaging content for PureWorker brand.",
+      "skillDemonstrated": "Brand Communication"
+    },
+    {
+      "id": "11",
+      "title": "Show Glass Campaign 1",
+      "brand": "Show Glass",
+      "category": "Show Glass",
+      "thumbnail": "/images/video-thumb-5.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1tGEhVinq7xig8dPkqoiataGlE5BdKzIO/preview",
+      "contentType": "Campaign",
+      "description": "Professional brand campaign for Show Glass.",
+      "skillDemonstrated": "Brand Storytelling"
+    },
+    {
+      "id": "12",
+      "title": "Show Glass Campaign 2",
+      "brand": "Show Glass",
+      "category": "Show Glass",
+      "thumbnail": "/images/video-thumb-6.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1lN_iBTze9cmGoKTd5WNbauyVNOQUccoA/preview",
+      "contentType": "Campaign",
+      "description": "Creative visual content for Show Glass.",
+      "skillDemonstrated": "Visual Storytelling"
+    },
+    {
+      "id": "13",
+      "title": "Show Glass Campaign 3",
+      "brand": "Show Glass",
+      "category": "Show Glass",
+      "thumbnail": "/images/video-thumb-1.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1qr6Kl04JYJtAsstuO2mO2MhaGqTaBR67/preview",
+      "contentType": "Campaign",
+      "description": "Immersive brand experience for Show Glass.",
+      "skillDemonstrated": "Experiential Content"
+    },
+    {
+      "id": "14",
+      "title": "Show Glass Campaign 4",
+      "brand": "Show Glass",
+      "category": "Show Glass",
+      "thumbnail": "/images/video-thumb-2.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1eYf3Gu87pMbuxA_06fA3H4zdGsnL3fxn/preview",
+      "contentType": "Campaign",
+      "description": "Dynamic campaign content for Show Glass.",
+      "skillDemonstrated": "On-Camera Presence"
+    },
+    {
+      "id": "15",
+      "title": "Alphatech Tryout",
+      "brand": "Alphatech",
+      "category": "Alphatech",
+      "thumbnail": "/images/video-thumb-3.jpg",
+      "videoUrl": "https://drive.google.com/file/d/1ajgc0HkSCc0ozKb07bMYJKfetoXJmWfR/preview",
+      "contentType": "Tryout",
+      "description": "Tech-focused content for Alphatech brand.",
+      "skillDemonstrated": "Technical Presentation"
+    }
+  ]
+}
