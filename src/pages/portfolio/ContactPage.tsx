@@ -42,23 +42,44 @@
      message: '',
    });
  
-   const handleSubmit = async (e: React.FormEvent) => {
-     e.preventDefault();
-     setIsSubmitting(true);
- 
-     // Simulate API call
-     await new Promise(resolve => setTimeout(resolve, 1500));
- 
-     // In a real app, you'd send to an API endpoint
-     console.log('Form submitted:', formData);
- 
-     setIsSubmitting(false);
-     setIsSubmitted(true);
-     toast({
-       title: "Message sent!",
-       description: "Thanks for reaching out. I'll get back to you soon.",
-     });
-   };
+    const handleSubmit = async (e: React.FormEvent) => {
+      e.preventDefault();
+      setIsSubmitting(true);
+
+      try {
+        const response = await fetch(
+          `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "apikey": import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY,
+            },
+            body: JSON.stringify(formData),
+          }
+        );
+
+        const data = await response.json();
+        if (!response.ok || !data.success) {
+          throw new Error(data.error || "Failed to send message");
+        }
+
+        setIsSubmitted(true);
+        toast({
+          title: "Message sent!",
+          description: "Thanks for reaching out. I'll get back to you soon.",
+        });
+      } catch (error) {
+        console.error("Error sending message:", error);
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try emailing directly.",
+          variant: "destructive",
+        });
+      } finally {
+        setIsSubmitting(false);
+      }
+    };
  
    const handleChange = (field: string, value: string) => {
      setFormData(prev => ({ ...prev, [field]: value }));
