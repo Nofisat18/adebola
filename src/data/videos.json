@@ -5,7 +5,6 @@
     "Show Glass",
     "Fashion",
     "Pure Worker",
-    "Ads",
     "Alphatech"
   ],
   "videos": [
@@ -85,17 +84,6 @@
       "contentType": "Lookbook",
       "description": "Stylish fashion content with creative direction.",
       "skillDemonstrated": "Creative Direction"
-    },
-    {
-      "id": "8",
-      "title": "Brand Ad Campaign",
-      "brand": "Ads",
-      "category": "Ads",
-      "thumbnail": "/images/video-thumb-2.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1yfsDP0ikgY86CBFJCN2HAExk7QGsSP_X/preview",
-      "contentType": "Ad",
-      "description": "Compelling advertisement content that drives engagement.",
-      "skillDemonstrated": "Ad Production"
     },
     {
       "id": "9",
