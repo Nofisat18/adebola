@@ -14,7 +14,7 @@
       "brand": "Personal",
       "category": "Introductory",
       "thumbnail": "https://drive.google.com/uc?export=view&id=1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e",
-      "videoUrl": "https://drive.google.com/uc?export=download&id=15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i",
+      "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/preview",
       "contentType": "Talking Head/Intro",
       "description": "An introductory video where I share my background,experience, and what inspires my work.",
       "skillDemonstrated": "Personal Branding/Communication"
@@ -46,8 +46,8 @@
       "title": "Osun State Road Network",
       "brand": "Osun State Government",
       "category": "Street Interview / Civic Awareness",
-      "thumbnail": "A professional talking-head/street interview thumbnail showing people discussing Osun State's newly built road network, sunny outdoor setting, vibrant, clear, high-quality, portrait orientation.",
-      "videoUrl": "https://drive.google.com/file/d/1J09uTGDTwq9x_dC1CT-cbkNkFumFr1Ck/view?usp=drivesdk",
+      "thumbnail": ".",
+      "videoUrl": "<iframe src="https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/preview" width="640" height="480"></iframe>",
       "contentType": "UGC / Talking Head",
       "description": "A street interview where citizens share their opinions and experiences regarding the newly built road network in Osun State, highlighting the impact on daily commutes and local community life.",
       "skillDemonstrated": "Public Engagement / Civic Awareness"
