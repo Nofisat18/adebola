@@ -13,10 +13,10 @@
       "title": "Get to know me",
       "brand": "Personal",
       "category": "Introductory",
-      "thumbnail": "https://drive.google.com/file/d/1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e/view?usp=drivesdk",
+      "thumbnail": "https://drive.google.com/uc?export=view&id=1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e",
       "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/view?usp=drivesdk",
       "contentType": "Talking Head/Intro",
-      "description": "An introductory video where I share my background,experience, and what inspires my work."
+      "description": "An introductory video where I share my background,experience, and what inspires my work.",
 
       "skillDemonstrated": "Personal Branding/Communication"
     },
@@ -40,7 +40,7 @@
       "videoUrl": "https://drive.google.com/file/d/1StX_k2sCEIAiQdCgsolQIs2rZLKv2fk2/view?usp=drivesdk",
       "contentType": "UGC/Talking Head",
       "description": "A short talking-head introduction to Avant Garde, a premium shortlet apartment in Lekki Phase 1, highlighting its features, lifestyle appeal, and guest experience.",
-      "skillDemonstrated": "Lifestyle Presentation / Real Estate UGC"
+      "skillDemonstrated": "Lifestyle Presentation / Real Estate UGC",
     },
     {
       "id": "4",
