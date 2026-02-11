@@ -16,8 +16,8 @@
       "thumbnail": "https://drive.google.com/uc?export=view&id=1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e",
       "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/view?usp=drivesdk",
       "contentType": "Talking Head/Intro",
-      "description": "An introductory video where I share my background, experience, and what inspires my work.",
-      "skillDemonstrated": "Personal Branding/Communication",
+      "description": "An introductory video where I share my background,experience, and what inspires my work.",
+      "skillDemonstrated": "Personal Branding/Communication"
      },
      {
       "id": "2",
@@ -28,8 +28,8 @@
       "videoUrl": "https://drive.google.com/file/d/1IBZNXmg8_zOJ3fXQUs3_SLslIilEx8T8/preview",
       "contentType": "Campaign",
       "description": "Engaging visual narrative for SmartGlass.",
-      "skillDemonstrated": "Visual Storytelling",
-     }
+      "skillDemonstrated": "Visual Storytelling"
+     },
      {
       "id": "3",
       "title": "Avant Garde",
@@ -107,6 +107,8 @@
       "contentType": "UGC",
       "description": "A short cybersecurity awareness video demonstrating key online safety practices and educating viewers on protecting personal and organizational data.",
       "skillDemonstrated": "Technical Demonstration/Content Creation"
-    }
+      }
+    ]
+  }
   
 
