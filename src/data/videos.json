@@ -18,140 +18,87 @@
       "contentType": "Talking Head/Intro",
       "description": "An introductory video where I share my background, experience, and what inspires my work.",
       "skillDemonstrated": "Personal Branding/Communication"
-    }
+     }
+     {
       "id": "2",
       "title": "Multiple Identities",
       "brand": "SmartGlass Africa",
       "category": "Talking Head/Cinematic Edits",
-      "thumbnail": "/Person explaining SmartGlass smart office panels, dimmable glass, modern office, professional thumbnail, portrait",
+      "thumbnail": "A professional talking head: person explaining SmartGlass smart office panels, dimmable glass, modern office, cinematic lighting, portrait",
       "videoUrl": "https://drive.google.com/file/d/1IBZNXmg8_zOJ3fXQUs3_SLslIilEx8T8/preview",
       "contentType": "Campaign",
       "description": "Engaging visual narrative for SmartGlass.",
       "skillDemonstrated": "Visual Storytelling"
-    },
-    {
+     }
+     {
       "id": "3",
       "title": "Avant Garde",
       "brand": "Avant Garde Shortlet",
       "category": "Lifestyle/Property",
-      "thumbnail": "Professional talking-head thumbnail of a person introducing Avant Garde shortlet apartment in Lekki Phase 1, modern interior background, bright, high-quality, portrait orientation.",
+      "thumbnail": "autogenerate Professional talking-head thumbnail of a person introducing Avant Garde shortlet apartment in Lekki Phase 1, modern interior background, bright, high-quality, portrait orientation.",
       "videoUrl": "https://drive.google.com/file/d/1StX_k2sCEIAiQdCgsolQIs2rZLKv2fk2/view?usp=drivesdk",
       "contentType": "UGC/Talking Head",
       "description": "A short talking-head introduction to Avant Garde, a premium shortlet apartment in Lekki Phase 1, highlighting its features, lifestyle appeal, and guest experience.",
-      "skillDemonstrated": "Lifestyle Presentation / Real Estate UGC",
-    },
-    {
-      "id": "4",
-      "title": "SmartGlass Campaign 4",
-      "brand": "SmartGlass",
-      "category": "SmartGlass",
-      "thumbnail": "/images/video-thumb-4.jpg",
-      "videoUrl": "https://drive.google.com/file/d/11XD3LISL7Vl8xLrcrJDXFJQLlUTzaK6k/preview",
-      "contentType": "Campaign",
-      "description": "Dynamic brand content for SmartGlass.",
-      "skillDemonstrated": "On-Camera Presence"
+      "skillDemonstrated": "Lifestyle Presentation / Real"
     },
     {
       "id": "5",
-      "title": "Fashion Lookbook 1",
-      "brand": "Fashion",
-      "category": "Fashion",
-      "thumbnail": "/images/video-thumb-5.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1Z7eifHSC2Np7io_oYtW-fnpQ7YFFYKeq/preview",
-      "contentType": "Lookbook",
-      "description": "High-energy fashion campaign showcasing style and trends.",
-      "skillDemonstrated": "Fashion Storytelling"
-    },
-    {
+      "title": "Osun State Road Network",
+      "brand": "Osun State Government",
+      "category": "Street Interview / Civic Awareness",
+      "thumbnail": "A professional talking-head/street interview thumbnail showing people discussing Osun State's newly built road network, sunny outdoor setting, vibrant, clear, high-quality, portrait orientation.",
+      "videoUrl": "https://drive.google.com/file/d/1J09uTGDTwq9x_dC1CT-cbkNkFumFr1Ck/view?usp=drivesdk",
+      "contentType": "UGC / Talking Head",
+      "description": "A street interview where citizens share their opinions and experiences regarding the newly built road network in Osun State, highlighting the impact on daily commutes and local community life.",
+      "skillDemonstrated": "Public Engagement / Civic Awareness"
+     },
+     {
       "id": "6",
-      "title": "Fashion Lookbook 2",
-      "brand": "Fashion",
-      "category": "Fashion",
-      "thumbnail": "/images/video-thumb-6.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1sg46LWcUD-D3xaxEuE6PAnB_VBrk-aeb/preview",
-      "contentType": "Lookbook",
-      "description": "Dynamic showcase of urban fashion collection.",
-      "skillDemonstrated": "Visual Styling"
+      "title": "Fewa/Homex Exhibition Clarification",
+      "brand": "Fewa / Homex",
+      "category": "UGC / Talking Head / Interior Design",
+      "thumbnail": "A professional talking-head thumbnail of a person discussing a furniture and home interior exhibition, modern interior background, bright, high-quality, portrait orientation.",
+      "videoUrl": "https://drive.google.com/file/d/1WDssX99lGVj2VU_HvOU9WTsqFjDjYPdi/view?usp=drivesdk",
+      "contentType": "UGC / Talking Head",
+      "description": "A short video where a presenter discusses key highlights of the Fewa/Homex furniture and home interiors exhibition, showcasing designs, trends, and exhibition details.",
+      "skillDemonstrated": "Lifestyle Presentation / Product Explanation"
     },
     {
       "id": "7",
-      "title": "Fashion Lookbook 3",
-      "brand": "Fashion",
+      "title": "Oasis",
+      "brand": "Oasis",
       "category": "Fashion",
-      "thumbnail": "/images/video-thumb-1.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1mKoLR33fJBhiljwUZy31qScACnka4R7L/preview",
-      "contentType": "Lookbook",
-      "description": "Stylish fashion content with creative direction.",
-      "skillDemonstrated": "Creative Direction"
+      "thumbnail": "A professional indoor fashion shoot thumbnail showing a model dressing up and presenting outfits, elegant lighting, stylish interior, high-quality, portrait orientation.",
+      "videoUrl": "https://drive.google.com/file/d/1Yp1ReDED7P4l_KMMwT0dncvdQiBGxLeF/view?usp=drivesdk",
+      "contentType": "Fashion Video",
+      "description": "A fashion video showcasing Oasis outfits in an indoor setting, combining dressing demonstration with subtle storytelling and premium editing techniques.",
+      "skillDemonstrated": "Fashion Styling / Storytelling / Video Editing"
     },
     {
+      "id": "8",
+      "title": "My Home and Me",
+      "brand": "SmartGlass Africa",
+      "category": "UGC / Campaign",
+      "thumbnail": "Cinematic talking-head thumbnail of a person on a phone call inside a modern smart glass office/home space, emotional storytelling mood, soft lighting, professional portrait frame.",
+      "videoUrl": "https://drive.google.com/file/d/1D3bOiLhyKnwRpykevGJCUyl1plDtaQQb/view?usp=drivesdk",
+      "contentType": "UGC Campaign Ad",
+      "description": "A UGC-style campaign video for SmartGlass Africa built around a phone call concept between the main character and his home, created as part of the October ads campaign.",
+      "skillDemonstrated": "UGC Storytelling / Campaign Acting / Concept Delivery"
+    },
+    {
+     
       "id": "9",
-      "title": "PureWorker Campaign 1",
-      "brand": "PureWorker",
-      "category": "Pure Worker",
-      "thumbnail": "/images/video-thumb-3.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1Cs0_f1fl1HSC587RjOoNy0b3oZbyvRq-/preview",
-      "contentType": "Campaign",
-      "description": "Brand storytelling for PureWorker.",
-      "skillDemonstrated": "Narrative Storytelling"
+      "title": "Eko Ile",
+      "brand": "Eko Ile Shortlet",
+      "category": "Lifestyle / Property",
+      "thumbnail": "Cinematic talking-head thumbnail introducing Eko Ile shortlet apartment, serene Lagos staycation vibe, modern cozy interior, warm lighting, professional portrait frame.",
+      "videoUrl": "https://drive.google.com/file/d/1YPRUBGEBXsDx2c7C54oSETBEoHOjjAHT/view?usp=drivesdk",
+      "contentType": "UGC / Storytelling",
+      "description": "A storytelling-style UGC video promoting Eko Ile shortlet apartments, positioning it as a calm and serene escape spot in Lagos for comfort and relaxation.",
+      "skillDemonstrated": "Lifestyle Storytelling / Property UGC / Brand Narrative"
     },
     {
       "id": "10",
-      "title": "PureWorker Campaign 2",
-      "brand": "PureWorker",
-      "category": "Pure Worker",
-      "thumbnail": "/images/video-thumb-4.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1teGGIQ4in3iWuDaA_SKckdKG8g8WrZ-C/preview",
-      "contentType": "Campaign",
-      "description": "Engaging content for PureWorker brand.",
-      "skillDemonstrated": "Brand Communication"
-    },
-    {
-      "id": "11",
-      "title": "Show Glass Campaign 1",
-      "brand": "Show Glass",
-      "category": "Show Glass",
-      "thumbnail": "/images/video-thumb-5.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1tGEhVinq7xig8dPkqoiataGlE5BdKzIO/preview",
-      "contentType": "Campaign",
-      "description": "Professional brand campaign for Show Glass.",
-      "skillDemonstrated": "Brand Storytelling"
-    },
-    {
-      "id": "12",
-      "title": "Show Glass Campaign 2",
-      "brand": "Show Glass",
-      "category": "Show Glass",
-      "thumbnail": "/images/video-thumb-6.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1lN_iBTze9cmGoKTd5WNbauyVNOQUccoA/preview",
-      "contentType": "Campaign",
-      "description": "Creative visual content for Show Glass.",
-      "skillDemonstrated": "Visual Storytelling"
-    },
-    {
-      "id": "13",
-      "title": "Show Glass Campaign 3",
-      "brand": "Show Glass",
-      "category": "Show Glass",
-      "thumbnail": "/images/video-thumb-1.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1qr6Kl04JYJtAsstuO2mO2MhaGqTaBR67/preview",
-      "contentType": "Campaign",
-      "description": "Immersive brand experience for Show Glass.",
-      "skillDemonstrated": "Experiential Content"
-    },
-    {
-      "id": "14",
-      "title": "Show Glass Campaign 4",
-      "brand": "Show Glass",
-      "category": "Show Glass",
-      "thumbnail": "/images/video-thumb-2.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1eYf3Gu87pMbuxA_06fA3H4zdGsnL3fxn/preview",
-      "contentType": "Campaign",
-      "description": "Dynamic campaign content for Show Glass.",
-      "skillDemonstrated": "On-Camera Presence"
-    },
-    {
-      "id": "15",
       "title": "CyberTech",
       "brand": "CyberTech Awarenesss",
       "category": "Tech/Cybersecurity",
