@@ -10,14 +10,15 @@
   "videos": [
     {
       "id": "1",
-      "title": "SmartGlass Campaign 1",
-      "brand": "SmartGlass",
-      "category": "SmartGlass",
-      "thumbnail": "/images/video-thumb-1.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1yY9KaUP6doKvp7QlFOLl5iGq5dPbBkho/preview",
-      "contentType": "Campaign",
-      "description": "Brand campaign content for SmartGlass.",
-      "skillDemonstrated": "Brand Storytelling"
+      "title": "Get to know me",
+      "brand": "Personal",
+      "category": "Introductory",
+      "thumbnail": "https://drive.google.com/file/d/1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e/view?usp=drivesdk",
+      "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/view?usp=drivesdk",
+      "contentType": "Talking Head/Intro",
+      "description": "An introductory video where I share my background,experience, and what inspires my work."
+
+      "skillDemonstrated": "Personal Branding/Communication"
     },
     {
       "id": "2",
@@ -32,14 +33,14 @@
     },
     {
       "id": "3",
-      "title": "SmartGlass Campaign 3",
-      "brand": "SmartGlass",
-      "category": "SmartGlass",
-      "thumbnail": "/images/video-thumb-3.jpg",
-      "videoUrl": "https://drive.google.com/file/d/1yfsDP0ikgY86CBFJCN2HAExk7QGsSP_X/preview",
-      "contentType": "Campaign",
-      "description": "Creative content production for SmartGlass brand.",
-      "skillDemonstrated": "Content Creation"
+      "title": "Avant Garde",
+      "brand": "Avant Garde Shortlet",
+      "category": "Lifestyle/Property",
+      "thumbnail": "Professional talking-head thumbnail of a person introducing Avant Garde shortlet apartment in Lekki Phase 1, modern interior background, bright, high-quality, portrait orientation.",
+      "videoUrl": "https://drive.google.com/file/d/1StX_k2sCEIAiQdCgsolQIs2rZLKv2fk2/view?usp=drivesdk",
+      "contentType": "UGC/Talking Head",
+      "description": "A short talking-head introduction to Avant Garde, a premium shortlet apartment in Lekki Phase 1, highlighting its features, lifestyle appeal, and guest experience.",
+      "skillDemonstrated": "Lifestyle Presentation / Real Estate UGC"
     },
     {
       "id": "4",
