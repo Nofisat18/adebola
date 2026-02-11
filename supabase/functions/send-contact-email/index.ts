@@ -1,61 +1,27 @@
-import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
-import { Resend } from "npm:resend@2.0.0";
+// src/components/Contact.tsx
+import React from "react";
 
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers":
-    "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
-};
+export default function Contact() {
+  return (
+    <section id="contact" className="py-16 bg-gray-50">
+      <div className="max-w-3xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+        <p className="text-lg mb-6">
+          I’m currently available for freelance projects and collaborations. 
+          You can reach me directly via email:
+        </p>
+        <p className="text-lg">
+          <a
+            href="mailto:awotayoadebolau67.com"
+            className="text-blue-600 underline"
+          >
+            awotayoadebolau67@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+  );
+}
 
-const handler = async (req: Request): Promise<Response> => {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { headers: corsHeaders });
-  }
-
-  try {
-    const resendApiKey = Deno.env.get("RESEND_API_KEY");
-    if (!resendApiKey) {
-      throw new Error("RESEND_API_KEY is not configured");
-    }
-
-    const resend = new Resend(resendApiKey);
-    const { name, email, company, projectType, message } = await req.json();
-
-    if (!name || !email || !message) {
-      throw new Error("Missing required fields: name, email, message");
-    }
-
-    const emailResponse = await resend.emails.send({
-      from: "Portfolio Contact <onboarding@resend.dev>",
-      to: ["awotayoadebolau67@gmail.com"],
-      subject: `New Inquiry from ${name}${company ? ` (${company})` : ""}`,
-      replyTo: email,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        ${company ? `<p><strong>Company:</strong> ${company}</p>` : ""}
-        ${projectType ? `<p><strong>Project Type:</strong> ${projectType}</p>` : ""}
-        <hr />
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, "<br>")}</p>
-      `,
-    });
-
-    console.log("Contact email sent:", emailResponse);
-
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
-      headers: { "Content-Type": "application/json", ...corsHeaders },
-    });
-  } catch (error: unknown) {
-    console.error("Error sending contact email:", error);
-    const errorMessage = error instanceof Error ? error.message : "Unknown error";
-    return new Response(
-      JSON.stringify({ success: false, error: errorMessage }),
-      { status: 500, headers: { "Content-Type": "application/json", ...corsHeaders } }
-    );
-  }
-};
-
+   
 serve(handler);
