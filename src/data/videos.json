@@ -1,11 +1,15 @@
 {
-  "categories": [
-    "All",
-    "SmartGlass",
-    "Show Glass",
-    "Fashion",
-    "Pure Worker",
-    "Alphatech"
+ "categories": [
+  "All",
+  "Introductory",
+  "Talking Head/Cinematic Edits",
+  "Lifestyle/Property",
+  "Street Interview / Civic Awareness",
+  "UGC / Talking Head",
+  "Fashion",
+  "UGC / Campaign",
+  "UGC / Storytelling",
+  "Tech/Cybersecurity"
   ],
   "videos": [
     {
@@ -14,7 +18,7 @@
       "brand": "Personal",
       "category": "Introductory",
       "thumbnail": "https://drive.google.com/uc?export=view&id=1uqAOWkMjJKjZAfJ4gxPWHkJsT-_onQ9e",
-      "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/preview",
+      "videoUrl": "https://drive.google.com/file/d/15XOa5dhyrrwGIgEQ2eaR1hxswAzOqP6i/view?usp=drivesdk",
       "contentType": "Talking Head/Intro",
       "description": "An introductory video where I share my background,experience, and what inspires my work.",
       "skillDemonstrated": "Personal Branding/Communication"
